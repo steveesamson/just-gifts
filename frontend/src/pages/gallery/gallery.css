@@ -1,0 +1,95 @@
+:root {
+    --no-of-cols: 1;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(var(--no-of-cols), 1fr);
+    grid-row: 230px;
+    gap: 12px;
+    padding: 1rem 1rem 2rem;
+    place-items: center;
+}
+
+.gallery>.card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    height: 250px;
+    width: 180px;
+    transition: all 0.37s ease-in-out;
+    border: 1px solid var(--dark-medium);
+    /* background-color: #6A68DF; */
+    background-color: #e9e9f2;
+    padding: 0;
+    cursor: pointer;
+}
+
+.gallery>.card .name-section {
+    flex: 1 1 auto;
+    padding: 1rem;
+}
+
+
+.gallery>.card img {
+    border-radius: 8px 8px 0 0;
+    max-height: 150px;
+}
+
+.gallery>.card:hover {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    border-color: var(--primary);
+}
+
+.gallery>.card .title {
+    font-weight: 100;
+    font-size: 14px;
+    padding: 0.3rem;
+
+    text-overflow: ellipsis;
+    width: 100%;
+    /* padding: 0 20px 0 20px; */
+    text-align: left;
+    height: 3em;
+    overflow: hidden;
+    -webkit-line-clamp: 2;
+    /* -webkit-box-orient: vertical; */
+    /* margin-top: 4px; */
+    margin-bottom: 0px !important;
+}
+
+.gallery>.card .price {
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 0 0.3rem;
+}
+
+.gallery>.card button {
+    padding: 0.2rem;
+    width: 100%;
+    border-color: var(--primary);
+    background-color: var(--primary);
+    color: var(--dark-light);
+}
+
+@media screen and (min-width:700px) {
+    .gallery {
+        --no-of-cols: 2;
+    }
+
+}
+
+@media screen and (min-width:850px) {
+    .gallery {
+        --no-of-cols: 3;
+    }
+
+}
+
+
+@media screen and (min-width:1036px) {
+    .gallery {
+        --no-of-cols: 4;
+    }
+
+}

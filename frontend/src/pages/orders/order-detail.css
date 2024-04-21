@@ -1,0 +1,92 @@
+:root {
+    --column-size: 1;
+}
+
+
+.contentWrapper {
+    display: grid;
+    grid-template-columns: repeat(var(--column-size), 1fr);
+    gap: 1rem;
+}
+
+.contentWrapper legend {
+    font-size: 18px;
+    color: var(--dark-heavy);
+}
+
+
+.listWrapper fieldset.order-summary {
+    background-color: var(--light-light);
+}
+
+.listWrapper ul {
+    list-style: none;
+    list-style-type: none;
+}
+
+.listWrapper li {
+    padding-block: 0.75rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    color: #6e7989;
+
+}
+
+.listWrapper em {
+    width: 70px;
+}
+
+.listWrapper em>img {
+    min-width: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid var(--dark-light);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+
+}
+
+.listWrapper h5 {
+    font-weight: 100;
+    flex: 1;
+}
+
+.listWrapper ul strong {
+    display: block;
+    font-weight: 100;
+    text-align: right;
+}
+
+legend.error {
+    color: var(--danger);
+}
+
+label>em {
+    color: #8c99a5;
+    font-style: normal;
+}
+
+.sum-row>* {
+    color: var(--dark-heavy);
+    font-weight: bolder !important;
+}
+
+.form-field span.input {
+    display: block;
+    background-color: var(--light-light);
+}
+
+.message {
+    line-height: 2;
+    padding-block: 1rem;
+    margin-inline: 2rem;
+    font-size: 1.2rem;
+}
+
+@media screen and (min-width:970px) {
+    .contentWrapper {
+        --column-size: 2;
+    }
+
+}

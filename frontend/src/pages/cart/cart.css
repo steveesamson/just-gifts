@@ -1,0 +1,12 @@
+td.flex {
+
+    min-inline-size: 7rem;
+}
+
+td.flex>button {
+    background-color: var(--primary-light);
+    color: white;
+    padding: 5px 8px;
+    font-weight: 700;
+    margin-inline: 5px;
+}

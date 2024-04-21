@@ -1,0 +1,23 @@
+.status-bar {
+    position: absolute;
+    display: flex;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: left;
+    padding: 0.5rem 1rem;
+    background-color: #aeebdb;
+    color: #0a4132;
+    padding: 1rem;
+}
+
+.status-bar p {
+    flex: 1;
+    color: #0a4132;
+    font-weight: 600;
+    line-height: 1;
+}
+
+.status-bar span {
+    font-size: 0.8rem;
+}

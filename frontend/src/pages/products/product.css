@@ -1,0 +1,15 @@
+.product-image {
+    position: relative;
+    text-align: center;
+    margin-block-end: 1rem;
+    /* width: 150px !important; */
+}
+
+.product-image img {
+    /* min-width: 100%; */
+    width: 200px;
+    margin-inline: auto;
+    border-radius: 8px;
+    border: 1px solid var(--dark-medium);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}

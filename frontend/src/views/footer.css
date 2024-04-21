@@ -1,0 +1,15 @@
+.in-session {
+    padding-block: 0.5rem;
+    /* color: #cfc4d9; */
+    color: #FF80C3;
+    font-weight: 600;
+}
+
+.logout-button {
+    margin-block: 0.7rem;
+    background-color: #FFD578;
+
+    border-color: #FFD578;
+
+    color: #3d3c8c;
+}

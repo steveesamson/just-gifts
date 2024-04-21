@@ -1,0 +1,28 @@
+.detail-grid {
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    gap: 1.2rem;
+}
+
+.detail-grid h1 {
+    font-weight: 800;
+    font-size: xx-large;
+}
+
+.detail-grid h2 {
+    font-weight: 700;
+    font-size: x-large;
+}
+
+.detail-grid p {
+    margin-block-start: 1.2rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.card.submit {
+    display: grid;
+    margin-block-start: 1rem;
+    gap: 1rem;
+    border-color: transparent;
+}
