@@ -5,7 +5,7 @@ export const user = async ({ params }) => {
     if (params.userId) {
         return await get(`/users/${params.userId}`);
     }
-    return { data: { fullName: "", emailAddress: "", password: "", confirmPassword: "", role: "admin" } };
+    return { data: { fullName: "", emailAddress: "", password: "", confirmPassword: "" } };
 };
 
 // List users

@@ -61,18 +61,11 @@ router.post('/', [OnlyAdmin], async (req, res) => {
         return res.status(403).json({ error: "You have no access right to this resource." });
     }
     const body = req.body;
-    const { role: toBeCreatedRole } = body
-    const { role: senderRole } = currentUser;
-
-    if (toBeCreatedRole === 'admin' && senderRole != 'admin') {
-        return res.status(403).json({ error: "You have no access right to this resource." });
-    }
 
     try {
-        const { fullName, emailAddress, password, role } = body;
+        const { fullName, emailAddress, password } = body;
         const encPassword = await Encrypt.hash(password);
-        const user = new User({ fullName, emailAddress, role, password: encPassword });
-        const data = await user.save();
+        const data = await User.create({ fullName, emailAddress, password: encPassword, role: "admin" });
         delete data.password;
         res.status(200).json({ data });
     } catch (e) {

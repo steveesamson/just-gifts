@@ -7,6 +7,8 @@
 - `The backend(API)` built with `Node.js (Express.js)` for API, `Atlas Mongo` for persistence and `Google Firebase storage` for `image CDN`.
 - `The Frontend` is built with `React.js`, `React-router-dom` and a bunch of crafted `custom hooks`.
 
+# Setup
+
 ## Setup Backend
 
 Inside the `just-gifts/backend` folders, run:
@@ -52,3 +54,15 @@ The above will start a dev server and open in your default browserwith the follo
 > Local: http://localhost:4000
 
 Browse the URL to view application, if it does not open in your browser as expected.
+
+# Users for test
+
+## Admin user
+
+- Email Address: jd@gmail.com
+- Password: test
+
+## Shopper user
+
+- Email Address: shopper@gmail.com
+- Password: test
