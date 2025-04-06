@@ -1,6 +1,19 @@
 {
   "name": "backend",
   "version": "0.1.0",
+  "description": "Just-Gifts  Backend application",
+  "author": "Steve S. Samson <stevee.samson@gmail.com> (https://steveesamson.github.io/home/)",
+  "keywords": [
+    "mongodb",
+    "api",
+    "rest",
+    "expressjs",
+    "authentication",
+    "authorization",
+    "google firebase storage",
+    "atlas mongodb",
+    "nodejs"
+  ],
   "type": "module",
   "scripts": {
     "dev": "nodemon app.js",

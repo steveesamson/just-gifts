@@ -2,6 +2,14 @@
   "name": "frontend",
   "version": "0.1.0",
   "type": "module",
+  "description": "Just-Gifts Frontend application",
+  "author": "Steve S. Samson <stevee.samson@gmail.com> (https://steveesamson.github.io/home/)",
+  "keywords": [
+    "reactjs",
+    "authentication",
+    "authorization",
+    "react router"
+  ],
   "scripts": {
     "start": "vite",
     "build": "vite build",
