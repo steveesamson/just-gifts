@@ -1,0 +1,18 @@
+{
+  "name": "just-gifts",
+  "description": "Just-Gifts is a simple e-commerce application",
+  "author": "Steve S. Samson <stevee.samson@gmail.com> (https://steveesamson.github.io/home/)",
+  "keywords": [
+    "mongodb",
+    "api",
+    "rest",
+    "expressjs",
+    "reactjs",
+    "authentication",
+    "authorization",
+    "google firebase storage",
+    "atlas mongodb",
+    "nodejs",
+    "react router"
+  ]
+}
