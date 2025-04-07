@@ -7,12 +7,12 @@ import { ref, getDownloadURL, uploadBytesResumable, getStorage, deleteObject } f
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyBLUj3NW86xZ-QaJHOysDBmRKJNluJd3eU",
-    authDomain: "just-gifts.firebaseapp.com",
-    projectId: "just-gifts",
-    storageBucket: "just-gifts.appspot.com",
-    messagingSenderId: "174379004382",
-    appId: "1:174379004382:web:a74ad81181b3eaacc32d4f"
+    apiKey: "<apiKey>",
+    authDomain: "<authDomain>",
+    projectId: "<projectId>",
+    storageBucket: "<storageBucket>",
+    messagingSenderId: "<messagingSenderId>",
+    appId: "<appId>"
 };
 
 // Initialize Firebase

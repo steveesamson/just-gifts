@@ -7,6 +7,20 @@
 - `The backend(API)` built with `Node.js (Express.js)` for API, `Atlas Mongo` for persistence and `Google Firebase storage` for `image CDN`.
 - `The Frontend` is built with `React.js`, `React-router-dom` and a bunch of crafted `custom hooks`.
 
+## Requirements
+
+1. Create an application on Google Firebse with Firebase Storage - You need the application information like:
+   - apiKey
+   - authDomain
+   - projectId
+   - storageBucket
+   - messagingSenderId
+   - appId
+
+Update the `frontend/services/firebase.js` appropriately.
+
+2. Create a MongoDB project on Atlas; add a database. You need the database connection string. Copy it and set the `CONSTR` in `backend/services/index.js`.
+
 # Setup
 
 ## Setup Backend

@@ -1,6 +1,6 @@
 const { ObjectId } = require('mongodb');
 const { connect, Schema, model, disconnect } = require('mongoose');
-const CONSTR = "mongodb+srv://root:r00t@cluster1.acu84ni.mongodb.net/just-gifts?retryWrites=true&w=majority";
+const CONSTR = "atlas mongodb connection string here";
 
 
 const connectDB = async () => {

@@ -5,6 +5,7 @@
   "author": "Steve S. Samson <stevee.samson@gmail.com> (https://steveesamson.github.io/home/)",
   "keywords": [
     "mongodb",
+    "mongoose",
     "api",
     "rest",
     "expressjs",
